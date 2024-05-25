@@ -64,7 +64,7 @@ class TicTacToe:
             try:
                 row, col = map(int, pPos.split())
             except ValueError:
-                print("Please enter a number between 0 and 2 in this format: row column")
+                print("Please enter a number between 0 and 2 in this format: row column\n(for e.g., if you want to insert at top left corner, use: 0 0)")
                 continue
 
             if row < 0 or row > 2 or col < 0 or col > 2:
